@@ -1363,6 +1363,7 @@ void Buy_Fruits_Vegetables()
 				found_atleast1 = 'y';
 				found = 'y';
 				
+				quantity = 0;
 				while(quantity<1)
 				{
 					cout<<"\tEnter Quantity: ";
@@ -1478,6 +1479,7 @@ void Buy_Medicines()
 				found_atleast1 = 'y';
 				found = 'y';
 				
+				quantity = 0;
 				while(quantity<1)
 				{
 					cout<<"\tEnter Quantity: ";
@@ -1591,6 +1593,8 @@ void Buy_Fashion()
 			{
 				found_atleast1 = 'y';
 				found = 'y';
+				
+				quantity = 0;
 				while(quantity<1)
 				{
 					cout<<"\tEnter Quantity: ";
@@ -1704,6 +1708,7 @@ void Buy_Sports()
 				found_atleast1 = 'y';
 				found = 'y';
 				
+				quantity = 0;
 				while(quantity<1)
 				{
 					cout<<"\tEnter Quantity: ";
